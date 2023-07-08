@@ -89,7 +89,7 @@
 .container .input-container i {
   border: none;
   border: 2px solid var(--gray-color);
-  width: 23%;
+  width: 20%;
   padding: 14px;
   /* height: 100%; */
   display: flex;
@@ -122,4 +122,5 @@
 
 .main-container .create-link {
   margin-top: 1rem;
+  text-align: center;
 }

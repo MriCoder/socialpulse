@@ -8,7 +8,7 @@
   margin: 1rem 0;
 }
 
-@media screen and (min-height: 600px) {
+@media screen and (min-height: 601px) {
   .main-container-register {
     height: 100svh;
     margin: 0;
