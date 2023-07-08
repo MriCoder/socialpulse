@@ -76,12 +76,6 @@
 
 @media screen and (min-width: 333px) {
   .container .input-container .vertical-hr {
-    left: 3.7rem;
-  }
-}
-
-@media screen and (min-width: 370px) {
-  .container .input-container .vertical-hr {
     left: 3.8rem;
   }
 }
