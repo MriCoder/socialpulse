@@ -1,0 +1,19 @@
+:root {
+  --gray-color: #f0eff2;
+  --primary-color: rgb(57, 102, 255);
+  --primary-dark-color: rgb(44, 70, 155);
+  --primary-dark-color-rgba: rgba(44, 70, 155, 0.5);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}

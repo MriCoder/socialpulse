@@ -1,0 +1,16 @@
+.main-container-register {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+@media screen and (min-height: 600px) {
+  .main-container-register {
+    height: 100svh;
+    margin: 0;
+  }
+}
