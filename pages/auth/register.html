@@ -26,6 +26,9 @@
       src="https://kit.fontawesome.com/9a9748be9b.js"
       crossorigin="anonymous"
     ></script>
+    <!-- JAVASCRIPT -->
+    <script src="../../javascript/password_show_hide.js"></script>
+    <script src="../../javascript/register.js"></script>
     <title>Register - SocialPulse</title>
   </head>
   <body>
@@ -111,6 +114,7 @@
               class="reg-pass-textbox"
               placeholder="Please enter your password"
             />
+            <b class="fa-solid fa-eye"></b>
             <div class="vertical-hr"></div>
           </div>
 
@@ -125,13 +129,23 @@
               />
             </i>
 
-            <input
-              type="file"
-              name="image"
-              class="image-textbox"
-              accept="image/*"
-              placeholder="Please enter your image"
-            />
+            <div class="custom-file-upload">
+              <label for="file-upload" class="image-upload-label">
+                <input
+                  id="file-upload"
+                  type="file"
+                  name="image"
+                  class="image-textbox"
+                  accept="image/*"
+                  placeholder="Please enter your image"
+                  style="display: none"
+                />
+                <span class="text-eclipsed image-file-label"
+                  >Choose Image File</span
+                >
+                <div>+</div>
+              </label>
+            </div>
             <div class="vertical-hr"></div>
           </div>
 

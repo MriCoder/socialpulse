@@ -43,7 +43,13 @@
   flex-direction: column;
   gap: 1.5rem;
   width: 100%;
-  padding: 1rem 1.5rem 0 1.5rem;
+  padding: 1rem 0.2rem 0 0.2rem;
+}
+
+@media screen and (min-width: 376px) {
+  .container form {
+    padding: 1rem 1.5rem 0 1.5rem;
+  }
 }
 
 .container .input-container {
@@ -82,14 +88,14 @@
 
 @media screen and (min-width: 525px) {
   .container .input-container .vertical-hr {
-    left: 4.3rem;
+    left: 4.1rem;
   }
 }
 
 .container .input-container i {
   border: none;
   border: 2px solid var(--gray-color);
-  width: 20%;
+  width: 17%;
   padding: 14px;
   /* height: 100%; */
   display: flex;
@@ -98,6 +104,39 @@
   border-radius: 12px 0 0 12px;
   border-right: none;
   font-size: 16px;
+}
+
+@media screen and (min-width: 350px) {
+  .container .input-container i {
+    width: 19%;
+  }
+}
+
+@media screen and (min-width: 525px) {
+  .container .input-container i {
+    width: 19%;
+  }
+}
+
+.container .input-container b {
+  padding: 18px 12px 18px 4px;
+  font-size: 16px;
+  /* position: absolute; */
+  border: 2px solid var(--gray-color);
+  /* color: var(--gray-color); */
+  border-radius: 0 12px 12px 0;
+  border-left: none;
+  background-color: white;
+  right: 7px;
+  top: 2px;
+}
+
+@media screen and (min-width: 410px) {
+  .container .input-container b {
+    padding: 18px 14px;
+    right: 7px;
+    top: 2px;
+  }
 }
 
 .container form input {
@@ -113,6 +152,12 @@
   &:focus {
     outline: none;
   }
+}
+
+.container form .password-textbox {
+  border-radius: 0;
+  border-right: none;
+  padding: 14px 0 14px 14px;
 }
 
 .container .forgot-link {
