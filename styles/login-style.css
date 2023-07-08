@@ -80,6 +80,12 @@
   }
 }
 
+@media screen and (min-width: 357px) and (max-width: 376px) {
+  .container .input-container .vertical-hr {
+    left: 4rem;
+  }
+}
+
 @media screen and (min-width: 410px) {
   .container .input-container .vertical-hr {
     left: 3.9rem;
