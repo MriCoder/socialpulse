@@ -68,7 +68,7 @@
   top: 20%;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 317px) {
   .container .input-container .vertical-hr {
     left: 3.5rem;
   }
